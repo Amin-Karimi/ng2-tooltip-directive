@@ -230,7 +230,7 @@ export class TooltipDirective {
     @HostListener('click')
     onClick() {
         if (this.isDisplayOnClick == false) {
-            this.componentRef.destroy();
+            this.componentRef?.destroy();
             return;
         }
 
