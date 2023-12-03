@@ -10,7 +10,7 @@
         "test": "ng test"
     },
     "dependencies": {
-        "@amin-karimi/ng2-tooltip-directive": "^2.0.0",
+        "@amin-karimi/ng2-tooltip-directive": "^3.0.1",
         "@angular/animations": "^15.0.4",
         "@angular/common": "^15.0.4",
         "@angular/compiler": "^15.0.4",
