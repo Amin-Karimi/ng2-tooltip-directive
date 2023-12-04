@@ -1,24 +1,40 @@
 # Tooltip for Angular
 
-[![Build Status](https://travis-ci.org/drozhzhin-n-e/ng2-tooltip-directive.svg?branch=master)](https://travis-ci.org/drozhzhin-n-e/ng2-tooltip-directive) <img src="https://badgen.net/bundlephobia/min/ng2-tooltip-directive" />
+
+[V1.0.3](https://www.npmjs.com/package/@amin-karimi/ng2-tooltip-directive/v/1.0.3) for Angular 14.2
+
+
+[V2.0.1](https://www.npmjs.com/package/@amin-karimi/ng2-tooltip-directive/v/2.0.1) for Angular 15.0.4
+
+[V3.0.2](https://www.npmjs.com/package/@amin-karimi/ng2-tooltip-directive/v/3.0.1) for Angular 16.0.5
+
+
+
+
+[![Build Status](https://img.shields.io/badge/Build-Success-green.svg)](https://github.com/Amin-Karimi) 
+<img src="https://badgen.net/bundlephobia/min/ng2-tooltip-directive" />
 
 The tooltip is a pop-up tip that appears when you hover over an item or click on it.
 
 🔬️ Help make Tooltips better by [answering a few questions](https://docs.google.com/forms/d/e/1FAIpQLSfuDYQLyGWLApEtnQH5wD2_HNjEM7lV_XJAhrQZEPm14mBZ-A/viewform).
 
 ## Demo
-http://ivylab.space/tooltip
+https://github.com/Amin-Karimi/ng2-tooltip-directive
 
 ## Installation
 
 Install the npm package.
 
-    npm i ng2-tooltip-directive
+   // npm i ng2-tooltip-directive
+
+
+      npm i @amin-karimi/ng2-tooltip-directive
         
 Import `Ng2Module`:
 
 ```ts
-import { TooltipModule } from 'ng2-tooltip-directive';
+//import { TooltipModule } from 'ng2-tooltip-directive';
+import { TooltipModule } from '@amin-karimi/ng2-tooltip-directive';
  
 @NgModule({
     imports: [ TooltipModule ]
@@ -75,8 +91,9 @@ export const MyDefaultTooltipOptions: TooltipOptions = {
 ```
     
 And pass your parameters when importing the module:
-```ts
-import { TooltipModule, TooltipOptions } from 'ng2-tooltip-directive';
+```ts 
+//import { TooltipModule, TooltipOptions } from 'ng2-tooltip-directive';
+import { TooltipModule, TooltipOptions } from '@amin-karimi/ng2-tooltip-directive';
 import { MyDefaultTooltipOptions } from './my-default-options';
  
 @NgModule({
@@ -133,7 +150,7 @@ If you specified the directive options, they will be taken into account when cal
 
 ## Author services
 
-Are you interested in this library but lacks features? [Write to the author](https://github.com/drozhzhin-n-e), he can do it for you.
+Are you interested in this library but lacks features? [Write to the author](https://github.com/drozhzhin-n-e),(https://github.com/Amin-Karimi), he can do it for you.
 
 ## Sponsors
 
